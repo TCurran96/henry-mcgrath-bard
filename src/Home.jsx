@@ -30,7 +30,7 @@ export default function PlayerApp() {
             <ol>
                 {Audiofiles.map((track) => <li>{track.name}</li>)}
             </ol>
-            <p>Establisthed 2020 by Tara Curran and Jack Crymble</p>
+            <p>Established 2020 by Tara Curran and Jack Crymble</p>
             <AudioPlayer
                 className="audio-player"
                 header={Audiofiles[currentTrackIndex].name}
