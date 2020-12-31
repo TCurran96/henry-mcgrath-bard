@@ -10,6 +10,6 @@
 }
 
 .audio-player {
-    position: fixed;
+    position: sticky;
     bottom: 0;
 }
