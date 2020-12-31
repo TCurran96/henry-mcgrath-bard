@@ -26,9 +26,11 @@ export default function PlayerApp() {
         <div className="container">
             <h3>In loving memory of</h3>
             <h1>Henry McGrath</h1>
+            <h4>14th November 1936 - 6th Dec 2020</h4>
             <ol>
                 {Audiofiles.map((track) => <li>{track.name}</li>)}
             </ol>
+            <p>Establisthed 2020 by Tara Curran and Jack Crymble</p>
             <AudioPlayer
                 className="audio-player"
                 header={Audiofiles[currentTrackIndex].name}
